@@ -37,7 +37,7 @@ CREATE UNIQUE INDEX IF NOT EXISTS idx_location_name ON public.locations (name);
 CREATE UNIQUE INDEX IF NOT EXISTS idx_location_name ON deleted.locations (name);
 CREATE UNIQUE INDEX IF NOT EXISTS idx_location_id ON deleted.locations (id);
 
--- Multi Upsert a few rows
+-- Multi Upsert a few rows. https://www.uuidgenerator.net is a good place to get a few sample UUIDs
 INSERT INTO public.locations (uid, name) VALUES
   ('219ce988-ac33-4ce9-bbbe-0453b44416d9','ogden'),
   ('2be779dd-c4d1-412b-ab4d-22742b39681c','salt lake city'),
