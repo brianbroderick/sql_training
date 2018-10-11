@@ -1,4 +1,3 @@
-drop database sql_training;
 CREATE DATABASE sql_training;
 CREATE SCHEMA deleted;
 SET search_path TO public;
