@@ -1,2 +1,3 @@
-# sql_training_inserts
-SQL training about inserts
+# sql_training
+
+This repo has examples of things that you can do with SQL.
