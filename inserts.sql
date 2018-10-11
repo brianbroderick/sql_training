@@ -3,6 +3,10 @@ CREATE SCHEMA deleted;
 
 -- Change between schemas for this connection. For now, ensure that you're on the public schema
 SET search_path TO public;
+-- FYI, to change to another schema, you can do this:
+-- SET search_path to deleted, public
+-- It will look for a table in the deleted schema first. If it doesn't find it, 
+-- it will check the next schema till it finds it or runs out of options.
 
 -- PG 10 way
 CREATE TABLE public.locations (
