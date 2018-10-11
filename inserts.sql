@@ -1,4 +1,5 @@
 CREATE DATABASE sql_training;
+-- A schema in Postgres is like a namespace. You can think of it as "a bunch of smaller databases inside a bigger one".
 CREATE SCHEMA deleted;
 
 -- Change between schemas for this connection. For now, ensure that you're on the public schema
